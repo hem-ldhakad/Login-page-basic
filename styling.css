@@ -1,0 +1,45 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#start{
+  text-align:center;
+  font-size: x-large;
+}
+#heading{
+  text-align: center;
+}
+#main{
+  text-align: center;
+  font-size: x-large;
+  width: 50%;
+  height: 60%;
+  border-style: groove;
+  border-radius: 15px;
+  border-color: white;
+  background-color: #0000001A;
+  backdrop-filter: blur(10px);
+}
+
+#btn{
+  width: 100px; 
+  height: 30px; 
+  font-weight: bold;
+  background-color: rgb(222, 56, 111); 
+  border-radius: 15px;
+}
+
+#register{
+  font-size: large;
+}
+body{
+  display: flex;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/067/251/452/small/colorful-flowers-bloom-against-a-stunning-mountain-sunset-in-a-serene-landscape-free-photo.jpeg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}

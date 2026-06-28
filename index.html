@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="heading">Login</h1>
+        <p>This is a login page.</p>
+        <p>Enter your details below.</p>
+    <br/>
+    <form>
+        <p>username</p>
+        <input id="user" type="text" placeholder="username"/>
+        <br/>
+        <br/>
+        <p>Password</p>
+        <input id ="pass" type="password"/>
+        <br/>
+        <br/>
+        <input type="checkbox"/>
+        <label><small>Remember me</small></label>
+    </form>
+    <button id ="btn" onclick = "action()">submit</button>
+    <div id="register">
+        <p>Don't have an acount?<a href="register.html" style="color: red;">Register</a>
+        </p>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
